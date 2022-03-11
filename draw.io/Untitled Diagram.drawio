@@ -1,41 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:20:35.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UBk9bFKemKoUlserxVI1" version="16.6.6" type="github">
-  <diagram id="M3LH4oMvlL-WW8W0X0On" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:51:18.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FBCpjfl9Of0AHkAqCdmA" version="16.6.6" type="github" pages="2">
+  <diagram id="M3LH4oMvlL-WW8W0X0On" name="CancelMatch">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqkPClIkoSpvf5nVNbBP-3" target="gqkPClIkoSpvf5nVNbBP-30">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqkPClIkoSpvf5nVNbBP-3" target="gqkPClIkoSpvf5nVNbBP-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-3" value="MatchStatus&lt;br&gt;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-3" value="MatchStatus&lt;br&gt;Check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqkPClIkoSpvf5nVNbBP-30" target="gqkPClIkoSpvf5nVNbBP-32">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqkPClIkoSpvf5nVNbBP-30" target="gqkPClIkoSpvf5nVNbBP-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-30" value="lock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-30" value="lock" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqkPClIkoSpvf5nVNbBP-32" target="gqkPClIkoSpvf5nVNbBP-38">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqkPClIkoSpvf5nVNbBP-32" target="gqkPClIkoSpvf5nVNbBP-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-32" value="deQueueFromZset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-32" value="deQueueFromZset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqkPClIkoSpvf5nVNbBP-38" target="gqkPClIkoSpvf5nVNbBP-40">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqkPClIkoSpvf5nVNbBP-38" target="gqkPClIkoSpvf5nVNbBP-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-38" value="batchload members from zset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-38" value="batchload members from zset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqkPClIkoSpvf5nVNbBP-40" target="gqkPClIkoSpvf5nVNbBP-42">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqkPClIkoSpvf5nVNbBP-40" target="gqkPClIkoSpvf5nVNbBP-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-40" value="filter members by xxlId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-40" value="filter members by xxlId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gqkPClIkoSpvf5nVNbBP-42" value="zrem targetMembers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gqkPClIkoSpvf5nVNbBP-42" value="zrem targetMembers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2-RJdrYAXWOHnJA6PpJ1" name="doMatch">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ExOzP72t9BBGcR9lnV5X-0" />
+        <mxCell id="ExOzP72t9BBGcR9lnV5X-1" parent="ExOzP72t9BBGcR9lnV5X-0" />
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="199.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="279.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-3" value="机器c，单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="359.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-4" value="机器d，单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="439.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-5" value="机器e，单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="524.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-6" value="机器a，单线程，&lt;br&gt;5s每次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="199.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-7" value="机器b，单线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="120" y="279.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-8" value="Locker 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="370" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-9" value="Locker&amp;nbsp;1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="370" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-10" value="Locker&amp;nbsp;2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="370" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-11" value="匹配队列&lt;br&gt;zset&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="650" y="250" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-12" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-12" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="500" y="280" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-17" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=172.5;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-17" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="500" y="360" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=172.5;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-21" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="ExOzP72t9BBGcR9lnV5X-1" source="IESB4jSk-9I6mgfhmpl4-21" target="IESB4jSk-9I6mgfhmpl4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="500" y="440" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-24" value="score&lt;br&gt;matchScore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="650" y="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-26" value="member&lt;br&gt;json" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="720" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-28" value="&lt;ul&gt;&lt;li&gt;全服玩家数据，放在一个zset队列中。&lt;/li&gt;&lt;li&gt;zset score为匹配分数，member为json字符串&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;匹配器，每台机器上跑一个单线程，高可用。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;匹配器分配zset数据，按照匹配器index，从zset中range对应段的数据，平均分配。使用分布式锁。抢到锁的匹配器可以为其分配资源。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;分配给匹配器的数据，在zset仍存在，除非显式的进行zrem操作（匹配成功|匹配失败）&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="70" y="-70" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-29" value="匹配器模型" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="560" y="-180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-31" value="&lt;b&gt;数据资源&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="410" y="213" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-32" value="&lt;b&gt;Matcher&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="150" y="152" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-35" value="&lt;ul&gt;&lt;li&gt;匹配队列长度会变（匹配成功 取消匹配 出队；开始匹配 入队）队列长度变长原有匹配器不影响，队列长度变短原有匹配器会跟新的匹配器产生重叠的数据。=&amp;gt; 可以使用一致性哈希进行匹配线程和数据资源间的分配。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;假设匹配速度不够快，在分布式锁过期期间不能将分配的数据全部处理完毕。则分布式锁失效。不同匹配器会被分配给大部分重叠的数据。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;假设匹配速度不够快，由于锁是可重入的（jvm，ip，mac），同一个机器的可以得到同一个锁。使用schedule是单线程的，atFixedRate，所以不会并发执行。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="480" y="-75" width="540" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-36" value="&lt;ul&gt;&lt;li&gt;如果机器a宕机，在分布式锁有效时间内未恢复。则只要保证剩余的机器数量 &amp;gt; 资源locker数量，这部分资源可以被重新分配给a之外的机器。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;如果机器a宕机，在分布式锁有效时间内恢复，则无影响。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;如果a未宕机，但是某次调度的任务中发生异常。则匹配线程仍然存活，但时后续匹配任务不会再被正常调度。=&amp;gt; 任务需要try-catch住所有异常。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="790" y="149.75" width="440" height="160.25" as="geometry" />
+        </mxCell>
+        <mxCell id="IESB4jSk-9I6mgfhmpl4-37" value="&lt;ul&gt;&lt;li&gt;因为匹配队列长度动态变化，匹配器处理速度和分布式锁有效时间相对关系无法精确确定。会导致多个匹配器重复处理了相同的数据。&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;解决方案：时间上的并发使用分布式锁，逻辑上的重入使用幂等。在匹配成功后写入匹配结果时进行互斥 + 幂等操作。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="ExOzP72t9BBGcR9lnV5X-1">
+          <mxGeometry x="1040" y="-80" width="540" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
